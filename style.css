@@ -17,8 +17,9 @@ a {
   color: black;
   text-decoration: underline;
   text-underline: black;
+  background-color: #66a0c4;
 }
-a:hover {
+ahover {
   color: crimson;
   text-decoration: underline;
   text-underline: crimson;
@@ -71,12 +72,55 @@ body {
 }
 
 #navLinks {
-  font-size: 25px;
+  font-size: 100%;
   align-items: center;
   align-content: center;
   align-self: center;
   alignment: center;
   child-align: middle;
+}
+
+.header {
+  text-align: center;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+}
+
+#footer {
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+}
+
+#events {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+}
+
+#signUp {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+}
+
+#formHeader {
+  font-weight: bold;
+  font-size: 20px;
+  -ms-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
