@@ -17,11 +17,12 @@ a {
   color: black;
   text-decoration: underline;
   text-underline: black;
-}
-a:hover {
-  color: crimson;
-  text-decoration: underline;
-  text-underline: crimson;
+
+  &hover {
+    color: crimson;
+    text-decoration: underline;
+    text-underline: crimson;
+  }
 }
 
 form {
@@ -56,10 +57,12 @@ footer {
   align-content: center;
 }
 
+$font-type: Arial, sans-serif;
+$font-color: black;
 body {
   background-color: #dfedff;
-  font-family: Arial, sans-serif;
-  color: black;
+  font-family: $font-type;
+  color: $font-color;
 }
 
 .hero {
@@ -78,5 +81,3 @@ body {
   alignment: center;
   child-align: middle;
 }
-
-/*# sourceMappingURL=style.css.map */
