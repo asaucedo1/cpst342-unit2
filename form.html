@@ -15,69 +15,71 @@
     </head>
 
     <body>
-        <div class="container">
-            <header>
+        <main>
+            <div class="container">
+                <header>
+                    <div>
+                        <div class="header">
+                            <h1>Clearing Neighborhood Information Portal</h1>
+                        </div>
+                        <div>
+                            <h2 class="header">Your Source for Local Information</h2>
+                        </div>
+                        <div>
+                            <div class="hero" id="banner">
+                                <img src="banner.png">
+                            </div>
+                            <div class="row">
+                                <idv class="col-4" id="home">
+                                    <a href="index.html">Home</a>
+                                </idv>
+                                <div class="col-4" id="events">
+                                    <a href="events.html">Events</a>
+                                </div>
+                                <div class="col-4" id="signUp">
+                                    <a href="form.html">Email Sign-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header><br>
                 <div>
-                    <div class="header">
-                        <h1>Clearing Neighborhood Information Portal</h1>
+                    <p id="formHeader">Email Newsletter Sign-up Form</p>
+                    <p>Thank you for your interest in receiving updates about your community. Please fill our the form below and we will keep you posted!</p>
+                </div>
+                <form>
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
                     </div>
                     <div>
-                        <h2 class="header">Your Source for Local Information</h2>
+                        <label for="lastName"> Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
                     </div>
                     <div>
-                        <div class="hero" id="banner">
-                            <img src="banner.png">
-                        </div>
-                        <div class="row">
-                            <idv class="col-4" id="home">
-                                <a href="index.html">Home</a>
-                            </idv>
-                            <div class="col-4" id="events">
-                                <a href="events.html">Events</a>
-                            </div>
-                            <div class="col-4" id="signUp">
-                                <a href="form.html">Email Sign-Up</a>
-                            </div>
-                        </div>
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email">
                     </div>
-                </div>
-            </header><br>
-            <div>
-                <p id="formHeader">Email Newsletter Sign-up Form</p>
-                <p>Thank you for your interest in receiving updates about your community. Please fill our the form below and we will keep you posted!</p>
-            </div>
-            <form>
-                <div>
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName">
-                </div>
-                <div>
-                    <label for="lastName"> Last Name</label>
-                    <input type="text" id="lastName" name="lastName">
-                </div>
-                <div>
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email">
-                </div>
-                <div>
-                    <label for="address">Mailing Address</label>
-                    <input type="text" id="address" name="address">
-                </div>
-                <div>
-                    <label for="frequency">Email Frequency</label>
-                    <select id="frequency" name="frequency">
-                        <option>Daily</option>
-                        <option>Weekly</option>
-                        <option>Monthly</option>
-                    </select>
-                </div>
+                    <div>
+                        <label for="address">Mailing Address</label>
+                        <input type="text" id="address" name="address">
+                    </div>
+                    <div>
+                        <label for="frequency">Email Frequency</label>
+                        <select id="frequency" name="frequency">
+                            <option>Daily</option>
+                            <option>Weekly</option>
+                            <option>Monthly</option>
+                        </select>
+                    </div>
 
-                <input type="submit" value="Register">
-            </form>
-        </div>
+                    <input type="submit" value="Register">
+                </form>
+            </div><br>
+        </main>
     </body>
-    <footer>
-        <div class="container" id="footer">
+    <footer class="container">
+        <div id="footer">
             <p>&#169 This site was designed by Alexander Saucedo for a school project CPST342.</p>
         </div>
     </footer>

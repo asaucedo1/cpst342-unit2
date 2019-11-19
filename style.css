@@ -97,6 +97,7 @@ body {
   background-color: #66a0c4;
   border-color: black;
   border-style: inset;
+  padding: 5px;
 }
 
 #events {
@@ -105,6 +106,7 @@ body {
   background-color: #66a0c4;
   border-color: black;
   border-style: inset;
+  padding: 5px;
 }
 
 #signUp {
@@ -113,6 +115,7 @@ body {
   background-color: #66a0c4;
   border-color: black;
   border-style: inset;
+  padding: 5px;
 }
 
 #formHeader {
