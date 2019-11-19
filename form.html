@@ -22,24 +22,27 @@
                         <div class="header">
                             <h1>Clearing Neighborhood Information Portal</h1>
                         </div>
-                        <div>
-                            <h2 class="header">Your Source for Local Information</h2>
+                        <div class="header">
+                            <h2>Your Source for Local Information</h2>
                         </div>
                         <div>
                             <div class="hero" id="banner">
                                 <img src="banner.png">
                             </div>
                             <div class="row">
-                                <div class="col-4" id="home">
+                                <div class="col-3" id="home">
                                     <a href="index.html">Home</a>
                                 </div>
-                                <div class="col-4" id="events">
+                                <div class="col-3" id="events">
                                     <a href="events.html">Events</a>
                                 </div>
-                                <div class="col-4" id="signUp">
+                                <div class="col-3" id="signUp">
                                     <a href="form.html">Email Sign-Up</a>
                                 </div>
-                            </div>
+                                <div class="col-3" id="map">
+                                    <a href="map.html">Chicago Map</a>
+                                </div>
+                            </div> <br>
                         </div>
                     </div>
                 </header><br>
@@ -78,14 +81,21 @@
                     </div>
                     <input type="submit" value="Register">
                 </form>
+
                 <div class="alert alert-success" role="alert">
-                    A simple danger alert—check it out!
+                    <strong>Success!</strong> You will now start receiving emails to help keep you updated.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    <strong>Warning!</strong> Please make sure that all the fields are filled correctly.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
+                    <strong>Error!</strong> Please make sure that you include a valid email address.
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>

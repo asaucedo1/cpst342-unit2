@@ -71,6 +71,7 @@ input[type=address], select {
 }
 
 input[type=submit] {
+  color: white;
   width: 75px;
   padding: 10px;
   margin: 6px 0;
@@ -155,6 +156,15 @@ body {
   padding: 5px;
 }
 
+#map {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
+
 #formHeader {
   font-weight: bold;
   font-size: 20px;
@@ -169,6 +179,21 @@ body {
 
 .body {
   padding: 20px;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

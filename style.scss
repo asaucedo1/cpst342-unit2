@@ -62,6 +62,7 @@ input[type=address], select {
   border-radius: 4px;
 }
 input[type=submit] {
+  color: white;
   width: 75px;
   padding: 10px;
   margin: 6px 0;
@@ -78,7 +79,6 @@ input[type=submit] {
     background-color: #07d;
   }
 }
-
 footer {
   width: 100%;
   background-color: orange;
@@ -98,7 +98,6 @@ body {
     align-content: center;
   }
 }
-
 #navLinks {
   font-size: 100%;
   align-items: center;
@@ -141,6 +140,14 @@ body {
   border-style: inset;
   padding: 5px;
 }
+#map {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
 #formHeader {
   font-weight: bold;
   font-size: 20px;
@@ -154,4 +161,18 @@ body {
 .body{
   padding: 20px;
 }
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 
